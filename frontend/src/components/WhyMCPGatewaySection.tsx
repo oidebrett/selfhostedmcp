@@ -42,7 +42,7 @@ export function WhyMCPGatewaySection({}: Props) {
               </p>
               {/* Replace PlaceholderVisual with the actual image */}
               <img 
-                src="https://static.databutton.com/public/4674c2ab-ebe8-4b88-8fbc-a7ec374852fd/withoutwireguard.png"
+                src="/images/without-wireguard.png"
                 alt="Diagram showing insecure direct exposure of MCP Servers to the internet"
                 className="rounded-md my-4 border border-neutral-700"
               />
@@ -69,7 +69,7 @@ export function WhyMCPGatewaySection({}: Props) {
                 </p>
                 {/* Replace PlaceholderVisual with the actual image */}
                 <img 
-                  src="https://static.databutton.com/public/4674c2ab-ebe8-4b88-8fbc-a7ec374852fd/withwireguardsecure.png"
+                  src="/images/with-wireguard-secure.png"
                   alt="Diagram showing secure setup with MCP Gateway and encrypted tunnel"
                   className="rounded-md my-4 border border-neutral-700"
                 />

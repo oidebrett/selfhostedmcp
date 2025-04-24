@@ -27,7 +27,7 @@ const Section = ({ id, title, height = "500px" }: { id: string, title: string, h
 */
 
 // URL for the uploaded image
-const HERO_IMAGE_URL = "https://static.databutton.com/public/4674c2ab-ebe8-4b88-8fbc-a7ec374852fd/OpenSourceEnterpriseMCPGateway.png";
+const HERO_IMAGE_URL = "/images/hero-image.png";
 
 export default function App() {
   return (

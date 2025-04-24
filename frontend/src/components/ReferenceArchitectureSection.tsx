@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 interface Props {}
 
 // URL for the uploaded architecture diagram
-const ARCHITECTURE_DIAGRAM_URL = "https://static.databutton.com/public/4674c2ab-ebe8-4b88-8fbc-a7ec374852fd/Architecture%20diagram.png";
+const ARCHITECTURE_DIAGRAM_URL = "/images/architecture-diagram-colors.png";
 
 export function ReferenceArchitectureSection({}: Props) {
   return (
@@ -25,7 +25,7 @@ export function ReferenceArchitectureSection({}: Props) {
           <img
             src={ARCHITECTURE_DIAGRAM_URL}
             alt="Reference Architecture Diagram for Secure MCP Gateway"
-            className="rounded-lg shadow-xl max-w-full h-auto md:max-w-3xl border border-neutral-700 bg-white p-2" // Added bg-white and padding for better visibility if diagram has transparent background
+            className="rounded-lg shadow-xl max-w-full h-auto md:max-w-3xl border border-neutral-700 p-2" // Added bg-white and padding for better visibility if diagram has transparent background
           />
         </div>
 

@@ -54,7 +54,7 @@ export function AuthOffloadSection() {
                 {/* <span className="text-neutral-500">
                   [Authentication Flow Diagram Placeholder - Upload Required]
                 </span> */}
-                 <img src="https://static.databutton.com/public/4674c2ab-ebe8-4b88-8fbc-a7ec374852fd/OAuth2MessageFlow.png" alt="Authentication Flow Diagram" className="max-w-full h-auto rounded border border-neutral-600" />
+                 <img src="/images/oauth2-message-flow.png" alt="Authentication Flow Diagram" className="max-w-full h-auto rounded border border-neutral-600" />
               </div>
               <DialogFooter>
                  <DialogClose asChild>
