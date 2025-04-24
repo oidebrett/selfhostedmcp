@@ -13,8 +13,7 @@ import {
 import { Youtube, Server, Globe, Network, Lock, TestTube, Settings, Route, CheckCircle, KeyRound, ShieldCheck, LinkIcon } from "lucide-react"; // Added Youtube, ShieldCheck, LinkIcon
 
 // Placeholder - Ask user for the correct YouTube video URL
-const YOUTUBE_VIDEO_EMBED_URL = "https://www.youtube.com/embed/dQw4w9WgXcQ"; // Replace with actual video embed URL
-
+const YOUTUBE_VIDEO_EMBED_URL = "https://www.youtube.com/embed/acWB5wQQoOE"; // Replace with actual video embed URL
 const integrationSteps = [
   {
     title: "Provision the Base Environment",

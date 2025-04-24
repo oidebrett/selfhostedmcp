@@ -76,5 +76,6 @@
     "compilerOptions": {
       "module": "CommonJS"
     }
-  }
+  },
+  "skipLibCheck": true
 }

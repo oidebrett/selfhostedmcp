@@ -21,7 +21,7 @@ export function WhyMCPGatewaySection({}: Props) {
         </p>
 
         {/* Existing content explaining *why* it's needed starts here */}
-        <h3 class="text-2xl font-semibold text-center text-white mt-16 mb-10">Why Secure a Self-Hosted MCP Integration?</h3>
+        <h3 className="text-2xl font-semibold text-center text-white mt-16 mb-10">Why Secure a Self-Hosted MCP Integration?</h3>
 
         <p className="text-lg text-center text-neutral-400 mb-12 max-w-3xl mx-auto">
             While MCP offers powerful capabilities, directly integrating Large Language Models exposes enterprises to significant security risks that a dedicated gateway architecture mitigates:
