@@ -1,7 +1,10 @@
 FROM node:20-alpine AS base
 
 # Install Python and required tools
-RUN apk add --no-cache python3 py3-pip bash make
+RUN apk add --no-cache python3 py3-pip bash make curl
+
+# Install uv for Python package management
+RUN curl -sSf https://astral.sh/uv/install.sh | sh
 
 # Set working directory
 WORKDIR /app
