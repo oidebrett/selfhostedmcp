@@ -7,5 +7,4 @@ services:
     # build: .
     ports:
       - "80:5173"  # Map container port 5173 to host port 80
-      - "8000:8000"  # Expose backend API port
     restart: unless-stopped

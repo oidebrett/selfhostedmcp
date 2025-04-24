@@ -1,10 +1,7 @@
 FROM node:20-alpine AS base
 
-# Install Python and required tools
-RUN apk add --no-cache python3 py3-pip bash make curl
-
-# Install uv for Python package management
-RUN curl -sSf https://astral.sh/uv/install.sh | sh
+# Install required tools
+RUN apk add --no-cache bash make curl
 
 # Set working directory
 WORKDIR /app
@@ -13,13 +10,13 @@ WORKDIR /app
 COPY . .
 
 # Make scripts executable
-RUN chmod +x backend/install.sh backend/run.sh frontend/install.sh frontend/run.sh
+RUN chmod +x frontend/install.sh frontend/run.sh
 
-# Install dependencies using the existing Makefile
-RUN make install
+# Install dependencies
+RUN make install-frontend
 
-# Expose ports
-EXPOSE 5173 8000
+# Expose frontend port
+EXPOSE 5173
 
 # Start script
 COPY docker-start.sh /app/
