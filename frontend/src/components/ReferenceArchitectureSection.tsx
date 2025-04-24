@@ -17,7 +17,7 @@ export function ReferenceArchitectureSection({}: Props) {
 
         {/* Introduction */}
         <p className="text-lg text-center text-neutral-400 mb-12 max-w-3xl mx-auto">
-          This diagram illustrates the high-level architecture of how the SecureGate MCP Gateway acts as a central control point, connecting users and clients to backend MCP servers securely within your internal network.
+          This diagram illustrates the high-level architecture of how the MCP Gateway acts as a central control point, connecting users and clients to backend MCP servers securely within your internal network.
         </p>
 
         {/* Architecture Diagram */}
