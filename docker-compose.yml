@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  selfhostedmcp:
+    image: ${DOCKER_USERNAME}/selfhostedmcp:latest
+    # Alternatively, build locally:
+    # build: .
+    ports:
+      - "80:5173"  # Map container port 5173 to host port 80
+      - "8000:8000"  # Expose backend API port
+    restart: unless-stopped
