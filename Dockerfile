@@ -1,7 +1,7 @@
 FROM node:20-alpine AS base
 
 # Install required tools
-RUN apk add --no-cache bash make curl
+RUN apk add --no-cache bash yarn
 
 # Set working directory
 WORKDIR /app
@@ -9,11 +9,11 @@ WORKDIR /app
 # Copy project files
 COPY . .
 
-# Make scripts executable
-RUN chmod +x frontend/install.sh frontend/run.sh
+# Shange to directory
+RUN cd frontend
 
 # Install dependencies
-RUN make install-frontend
+RUN yarn install
 
 # Expose frontend port
 EXPOSE 5173

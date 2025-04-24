@@ -2,7 +2,7 @@
 set -e
 
 # Start frontend
-make run-frontend
+yarn dev
 
 # Keep container running
 exec "$@"
