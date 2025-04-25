@@ -42,7 +42,7 @@ export default function App() {
             {/* Left Side: Text Content */}
             <div className="text-center md:text-left">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
-                Secure Your Self-Hosted MCP Servers:
+                Secure Your Self-Hosted MCP Servers:&nbsp;
                 <br className="hidden md:block" />
                 <span className="text-blue-400">The Free, Open Source MCP Gateway</span>
               </h1>
